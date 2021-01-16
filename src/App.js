@@ -1,6 +1,6 @@
+import React from "react";
 import logo from './nehir.jpeg';
 import './App.css';
-import React from "react";
 
 function App() {
   return (
