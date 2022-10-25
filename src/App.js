@@ -1,45 +1,20 @@
 import React from "react";
-import serpil from './serpil.jpg';
 import './App.css';
+import Header from './components/header/header.js'
+import Main from './components/main/main'
+import Footer from "./components/footer/footer";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={serpil} className="App-logo" alt="logo" />
-        <p>
-          Serpil Kuzu
-        </p>
+    return (
+        <div className="App">
+            <Header title="Serpil Kuzu" />
 
-        <a
-            className="App-link"
-            href="https://www.linkedin.com/in/serpilkuzu/"
-            target="_blank"
-            rel="noopener noreferrer"
-        >
-          LinkedIn
-        </a>
+            <Main message="My content"/>
+            <Footer/>
 
-        <a
-            className="App-link"
-            href="https://github.com/serpilkuzu"
-            target="_blank"
-            rel="noopener noreferrer"
-        >
-          GitHub
-        </a>
 
-        <a
-            className="App-link"
-            href="https://www.instagram.com/kuzu.serpil/"
-            target="_blank"
-            rel="noopener noreferrer"
-        >
-          Instagram
-        </a>
-      </header>
-    </div>
-  );
+        </div>
+    );
 }
 
 export default App;

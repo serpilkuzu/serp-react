@@ -1,0 +1,12 @@
+.main {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #41010103;
+    color: rgba(23, 24, 70, 0.44);
+    height: -webkit-fill-available;
+    display: flex;
+}
+
