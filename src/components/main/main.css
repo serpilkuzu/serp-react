@@ -1,6 +1,7 @@
 .main {
     position: absolute;
-    top: 100px;
+    top: 81px;
+    bottom: 82px;
     left: 0;
     width: 100%;
     text-align: center;
@@ -8,5 +9,6 @@
     color: rgba(23, 24, 70, 0.44);
     height: -webkit-fill-available;
     display: flex;
+    overflow: scroll;
 }
 
